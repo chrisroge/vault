@@ -4,7 +4,7 @@
 , "author"          : "James Coglan <jcoglan@gmail.com> (http://jcoglan.com/)"
 , "keywords"        : ["security", "passwords"]
 
-, "version"         : "0.3.0.1"
+, "version"         : "0.3.0"
 , "engines"         : {"node": ">=0.4.0"}
 , "main"            : "./lib/vault.js"
 , "bin"             : {"vault": "./bin/vault"}
@@ -17,7 +17,7 @@
                       }
 , "devDependencies" : { "jsclass": "" }
 
-, "scripts"         : { "postinstall" : "./node/scripts/postinstall"
+, "scripts"         : { "postinstall" : "node/scripts/postinstall"
                       , "test"        : "node spec/node.js"
                       }
 
