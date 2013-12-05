@@ -17,8 +17,8 @@
                       }
 , "devDependencies" : { "jsclass": "" }
 
-, "scripts"         : { "postinstall" : "node\scripts\postinstall"
-                      , "test"        : "node \spec\node.js"
+, "scripts"         : { "postinstall" : "./node/scripts/postinstall"
+                      , "test"        : "node spec/node.js"
                       }
 
 , "bugs"            : "http://github.com/chrisroge/vaultinator/issues"
